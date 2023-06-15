@@ -2,6 +2,8 @@
 
 Shows how to write entries to Windows event log via ASP .NET Core application
 
+![01_img](./img/Capture.PNG)
+
 ## Documentation
 
 - https://learn.microsoft.com/en-us/dotnet/api/system.diagnostics.eventlog.writeentry?view=windowsdesktop-7.0
