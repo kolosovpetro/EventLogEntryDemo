@@ -2,6 +2,12 @@
 
 Shows how to write entries to Windows event log via ASP .NET Core application
 
+## Documentation
+
+- https://learn.microsoft.com/en-us/dotnet/api/system.diagnostics.eventlog.writeentry?view=windowsdesktop-7.0
+- Create event source: https://stackoverflow.com/a/44565884
+- Examples: https://www.infoworld.com/article/3598750/how-to-log-data-to-the-windows-event-log-in-csharp.html
+
 ## Nuget packages
 
 ### Compile time code style checking
