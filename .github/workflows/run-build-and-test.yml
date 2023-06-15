@@ -85,11 +85,11 @@ jobs:
           SkipAutoProps: true
           Threshold: 80
 
-      - name: Publish coverage report to Coveralls
-        uses: coverallsapp/github-action@master
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          path-to-lcov: ${{ env.PathToTestCoverage }}
+#      - name: Publish coverage report to Coveralls
+#        uses: coverallsapp/github-action@master
+#        with:
+#          github-token: ${{ secrets.GITHUB_TOKEN }}
+#          path-to-lcov: ${{ env.PathToTestCoverage }}
 
       - name: Run .NET Publish
         run: |
