@@ -1,8 +1,6 @@
-# .NET project template
+# Event Log Entry Demo
 
-This is a template for creating .NET projects with compile-time code style checking, CI/CD workflows for Github Actions
-and Azure pipelines.
-Also, includes SonarCloud integration.
+Shows how to write entries to Windows event log via ASP .NET Core application
 
 ## Nuget packages
 

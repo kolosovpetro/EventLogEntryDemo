@@ -31,13 +31,12 @@ jobs:
       DOTNET_NOLOGO: 1
       DOTNET_CLI_TELEMETRY_OPTOUT: 1
       NUGET_PACKAGES: ${{ github.workspace }}/.github/nuget-packages
-      ProjectPath: './DotnetTemplate/DotnetTemplate.csproj'
-      TestProjectPath: './DotnetTemplate.Tests/DotnetTemplate.Tests.csproj'
+      ProjectPath: './EventLogEntryDemo.API/EventLogEntryDemo.API.csproj'
       Configuration: 'Release'
-      Solution: 'DotnetTemplate.sln'
+      Solution: 'EventLogEntryDemo.sln'
       ArtifactName: 'drop'
       ArtifactPath: 'publish'
-      PathToTestCoverage: './DotnetTemplate.Tests/TestResults/coverage.info'
+
     
     steps:
       - name: Fetch Sources
